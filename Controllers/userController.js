@@ -1,4 +1,4 @@
-const { User, Thought} = require('../models');
+const { User, Thought} = require('../Models');
 
 createPromptModule.exports = {
     async allUsers(req, res) {
