@@ -1,5 +1,5 @@
 const { connect, connection } = require('mongoose');
 
-connect('mongodb:127.0.00:27017/socialnetwork_db');
+connect('mongodb://localhost:27017');
 
 module.exports = connection;
